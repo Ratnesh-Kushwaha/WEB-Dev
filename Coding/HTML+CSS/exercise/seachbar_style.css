@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-color: rgb(168, 168, 211);
+}
+
+#nav {
+    height: 60px;
+    background-color: black;
+}
+
+#logo {
+    color: orange;
+    font-size: 25px;
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+button {
+    background-color: orange;
+}
+
+#nav {
+    border: solid white;
+    border-radius: 9px;
+}
+
+input {
+    color: black;
+}
+
+
+#a {
+    height: 100px;
+    width: 100px;
+    border: solid rgb(255, 255, 255);
+    background-color: rgba(0, 255, 0, 0.5);
+
+    /*this inline block will convert block to cover only given elment area instead of covering whole area of page*/
+    display: inline-block;
+}
+
+#b {
+    height: 100px;
+    width: 100px;
+    border: solid rgb(255, 255, 255);
+    background-color: rgba(255, 0, 0, 0.5);
+
+    /*this inline block will convert block to cover only given elment area instead of covering whole area of page*/
+    display: inline-block;
+}
+
+#c {
+    height: 100px;
+    width: 100px;
+    border: solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 255, 0.5);
+
+    /*this inline block will convert block to cover only given elment area instead of covering whole area of page*/
+    display: inline-block;
+}
+
+/*thanks to inline block we can adjust those three div blocks in  one row despite div being by default occupy whose line alone if inline block command not used*/
+
+#block {
+    height: 500px;
+}
+
+
+
+footer {
+    background-color: black;
+    text-align: center;
+}

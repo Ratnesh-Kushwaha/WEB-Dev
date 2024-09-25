@@ -1,0 +1,52 @@
+.border {
+    border: 2px solid red;
+    margin: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.item-centre {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-grey {
+    background-color: rgb(20, 20, 20);
+}
+
+.round {
+    border-radius: 3px;
+}
+
+.m1 {
+    margin: 5px;
+}
+
+.p1 {
+    padding: 12px;
+}
+
+.pb {
+    height: 24px;
+    width: 24px;
+}
+
+
+::-webkit-scrollbar {
+    background-color: rgb(95, 94, 94);
+    width: 10px;
+}

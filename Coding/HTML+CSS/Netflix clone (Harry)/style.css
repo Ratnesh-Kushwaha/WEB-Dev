@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("asset/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    /* jo bada hoga wo apply hoga */
+    height: 80vh;
+    position: relative;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.677;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+nav img {
+    color: red;
+    width: 112px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    margin-left: 15px;
+}
+
+.front {
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    height: calc(100% - 60px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 23px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.front> :first-child {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.front> :nth-child(2) {
+    /* greater than symbols singnifies immediate child  */
+    font-weight: 400;
+    font-size: 19px;
+    padding-top: 25px;
+}
+
+.front> :nth-child(3) {
+    font-weight: 400;
+    font-size: 17.55px;
+}
+
+.line {
+    height: 4px;
+    background-color: rgb(36, 36, 36);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bRedS {
+    background-color: red;
+    color: white;
+    padding: 3px 12px;
+    font-size: 15px;
+    border-radius: 2px;
+
+}
+
+.btnL {
+    background-color: rgba(83, 82, 82, 0.34);
+    color: white;
+    border: 0.1px solid grey;
+    padding: 3px 24px;
+    font-size: 15px;
+}
+
+.sinBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.bRed {
+    background-color: red;
+    color: white;
+    padding: 3.89px 14px;
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+
+.main input {
+    padding: 7px 112px 8px 14px;
+    color: white;
+    font-size: 12.7px;
+    border: solid 1px rgba(68, 68, 68, 0.5);
+    border-radius: 4px;
+    background-color: rgba(24, 23, 23, 0.7);
+}
+
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+}
+
+
+
+.imgF img {
+    width: 555px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 34px;
+    font-size: 22px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 39.56px;
+}
+
+.faqBox {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(56, 55, 55);
+    color: white;
+    padding: 12px 24px;
+    max-width: 57.6vw;
+    margin: 15px auto;
+}
+
+.faqBox:hover {
+    cursor: pointer;
+    background-color: rgb(92, 91, 91);
+}
+
+footer {
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+    padding: 34px;
+}
+
+.que {
+    padding: 34px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.FooterItem {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+/* Making our page responsive to different screen sizes of devices by adding media queries accordingly */
+
+@media screen and (max-width:1000px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+    }
+
+    .FooterItem{
+        align-items: center;
+    }
+
+    footer {
+        max-width: 90vw;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    section.first>div :nth-child(1) {
+        font-size: 27px;
+        font-weight: bolder;
+    }
+
+    section.first>div :nth-child(2) {
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    nav {
+        max-width: 90vw;
+    }
+
+    .sinBtn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 13px;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .imgF img {
+        width: 375px;
+    }
+
+    .front> :first-child {
+        font-weight: 900;
+        font-size: 23px;
+    }
+
+    .front> :nth-child(2) {
+        font-weight: 400;
+        font-size: 15px;
+        padding-top: 4px;
+    }
+
+    .front> :nth-child(3) {
+        font-weight: 400;
+        font-size: 15px;
+    }
+}

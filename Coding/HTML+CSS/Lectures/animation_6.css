@@ -1,0 +1,17 @@
+div{
+    width: 200px;  height: 200px;
+    background-color: blue; 
+    position: absolute;
+    left: 300px;  right: 300px;
+    animation-name: box;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+}
+
+@keyframes box{
+    from{background-color: blue; left: 200px;}  to{background-color: brown; left: 500px;}
+
+}

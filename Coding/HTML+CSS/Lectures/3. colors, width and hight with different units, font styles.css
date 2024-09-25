@@ -1,0 +1,62 @@
+h2 {
+    color: rgb(22, 2, 2);
+    text-align: center;
+}
+
+header {
+    color: rgb(31, 4, 4);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+}
+
+button {
+    color: beige;
+    background-color: rgb(100, 98, 98);
+}
+
+body {
+    background-color: rgb(203, 213, 245);
+}
+
+#b01 {
+    color: sandybrown;
+}
+
+.b02 {
+    font-style: oblique;
+    font-family: fantasy;
+    color: tomato;
+}
+
+
+
+#parent {
+    background-color: blueviolet;
+    width: 300px;
+    height: 200px;
+    font-size: 20px;
+}
+
+#child {
+    background-color: green;
+    width: 30%;
+    height: 50px;
+    /*this child width will take 30% of parent width in div that is 90px width of child div relative to parent width */
+    font-size: 2em;
+    /* this 2em will take take 2 time font size of parent */
+    width: 2em;
+}
+
+#ab {
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 500px;
+    color: antiquewhite;
+}
+
+#re {
+    background-color: rgb(73, 226, 43);
+    height: 15rem;
+    /*height become 15 times of the default body element's font size*/
+}

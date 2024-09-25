@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(101, 101, 148);
+}
+
+ul {
+    background-color: black;
+    display: flex;
+    height: 50px;
+    border: white solid;
+    border-radius: 15px;
+    justify-content: space-around;
+}
+
+li {
+    color: white;
+
+    /* important to note this css command */
+    list-style-type: none;
+}
+
+.a {
+
+    /* another important topic */
+    -webkit-text-fill-color: aliceblue;
+}
+
+.outer {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(107, 202, 107);
+}

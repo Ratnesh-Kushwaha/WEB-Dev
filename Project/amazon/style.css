@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    height: 70%;
+    width: 8%;
+    margin: 10px;
+}
+
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.text{
+    margin: 10px;
+    color: rgb(34, 26, 26);
+    font-weight: bolder;
+}
+
+#contact{
+    margin-left: 44px;
+    font-weight: lighter;
+}
+
+input{
+    transform: scale(1.2);
+}
+
+#login{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black; border-radius: 3px;
+    padding: 2px 5px 2px 5px;
+} #login:hover{
+    border-radius: 3px;
+    background-color: rgb(0, 79, 248);
+    color: rgb(255, 255, 255);
+    font-weight: 300;}
+
+
+#try{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(23, 100, 23);
+    padding: 5px 7px 5px 7px;
+    border-radius: 4px;
+    color: white;
+} #try:hover{background-color: green;}
+
+#pseudo_header{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(191, 207, 191);
+}
+
+#page1{
+    height: 90vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+#strip{
+    height: 7.5%;
+    width: 100%;
+    background-color: rgb(13, 13, 66);
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;  justify-content: space-evenly;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content{
+    width: 100%;
+    height: 82.5%;
+    background-color: rgb(215, 234, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#box1{
+    height: 98%;
+    width: 49%;
+    background-color: blueviolet;
+}
+#box2{
+    height: 98%;
+    width: 49%;
+    background-color: rgb(189, 85, 85);
+}
+
+#down{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#page2{
+    height: 90vh;
+    width: 100%;
+    background-color: grey;
+}
+

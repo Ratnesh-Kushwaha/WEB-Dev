@@ -1,0 +1,7 @@
+div{height: 100px; width: 100px;
+    background-image: url("image_22.jpg");
+    background-size: cover;
+    position: fixed;
+    top: 2px; right: 2px;
+    z-index: 1;
+}

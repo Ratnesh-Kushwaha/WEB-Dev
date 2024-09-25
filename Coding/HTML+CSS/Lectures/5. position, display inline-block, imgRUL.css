@@ -1,0 +1,32 @@
+div{border: 2px solid black;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+#box1{background-color: blue;
+    position: static;               /*here top, right, left command won't work due to static positioning*/
+}
+#box2{background-color: rgb(26, 151, 93);
+    position: relative;
+    left: 20px; right: 12px; top: 11px;  bottom: 2px; /*try to de-comment out below z-index: ; code*/
+    /* z-index: 2;    previously it is below box5 but z-index value will tell us how much it will go in or out according to psitive or negative value of z-index: ; */
+}
+#box3{background-color: rgb(159, 236, 16);
+    position: absolute;
+    top: 45px;
+}
+#box4{background-color: rgb(255, 0, 221);
+    position: fixed;       /*this positioning help to make top header in site that will fix to top even if we scroll the page it won't disappear */
+    top:0px; left: 0px;
+}
+#box5{background-color: rgb(255, 0, 0);
+    position: sticky;
+    top: 0; left: 20px;       /*this sticky postion make it fix after we scroll it over at our desire positioning*/
+}
+
+
+body{background-image: url("image_22.jpg");                 
+background-size: cover;}
+
+
